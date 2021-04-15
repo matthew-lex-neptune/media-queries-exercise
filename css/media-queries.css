@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.alert-info, .hidden-on-desktop {
+    border: 2px solid #c1c1c1;
+    background: #ccffff;
+    margin: 0 auto;
+    padding: 1em 8em;
+    text-decoration: none;
+    /*width: 100%;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*// this css is for desktop*/
+@media screen and (min-width:500px) {
+    * {
+        color: hotpink;
+    }
+}
