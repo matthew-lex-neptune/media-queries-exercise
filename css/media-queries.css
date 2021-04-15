@@ -2,21 +2,70 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    width: 100%;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    padding: .7em;
+    /*width: 100%;*/
+    background-color: hotpink;
+}
 
 .alert-info, .hidden-on-desktop {
     border: 2px solid #c1c1c1;
     background: #ccffff;
     margin: 0 auto;
-    padding: 1em 8em;
-    text-decoration: none;
+    padding: 1em 6.6em;
     /*width: 100%;*/
+    align-items: center;
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    margin: 0 auto;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-self: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+li{
+    display: flex;
+    background-color: #c1c1c1;
+    width: 50%;
+    margin: .5em auto;
+    /*align-content: space-between;*/
+
+
+}
+
+li a{
+
 }
 
 
+.nav-links{
 
+}
 
+#main h2 {
+
+}
 
 
 
