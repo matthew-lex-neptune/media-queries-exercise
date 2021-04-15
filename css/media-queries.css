@@ -91,6 +91,13 @@ footer p{
     * {
         color: hotpink;
     }
+
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: .7em;
+    }
     .hidden-on-desktop {
         display: none;
     }
@@ -106,6 +113,8 @@ footer p{
         width: 8%;
     }
     h1 {
-
+    display: flex;
+    width: 30%;
+    text-align: left;
     }
 }
