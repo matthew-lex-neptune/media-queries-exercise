@@ -117,4 +117,25 @@ footer p{
     width: 30%;
     text-align: left;
     }
+
+    section{
+        width: 50%;
+    }
+
+    #main{
+        padding-right: 1em;
+        margin: 0  auto 0 0;
+        width: 60%;
+    }
+
+    .sub-section {
+    padding-left: 2em;
+    width: 30%;
+    }
+
+    #social-media-links{
+        display: flex;
+        flex-direction: row;
+        width: 10%;
+    }
 }
