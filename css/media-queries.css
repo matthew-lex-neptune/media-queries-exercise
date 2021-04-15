@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: 0;
+    margin: .5em 0;
     box-sizing: border-box;
     width: 100%;
 }
@@ -11,15 +11,17 @@ body{
     padding: .7em;
     /*width: 100%;*/
     background-color: hotpink;
+    justify-content: center;
 }
 
 .alert-info, .hidden-on-desktop {
     border: 2px solid #c1c1c1;
     background: #ccffff;
-    margin: 0 auto;
-    padding: 1em 6.6em;
-    /*width: 100%;*/
+    /*margin: 0 auto;*/
+    padding: 1em;
+    width: 100%;
     align-items: center;
+    text-align: center;
 }
 
 div a {
@@ -28,13 +30,15 @@ div a {
 }
 
 h1{
-    margin: 0 auto;
-    width: 100%;
+    text-align: center;
 }
 
-nav{
+nav {
     display: flex;
     justify-self: center;
+}
+li>a {
+    text-align: center;
 }
 
 ul{
@@ -47,10 +51,10 @@ ul{
 li{
     display: flex;
     background-color: #c1c1c1;
-    width: 50%;
-    margin: .5em auto;
+    width: 100%;
+    /*margin: .5em auto;*/
     /*align-content: space-between;*/
-
+    padding: 1em;
 
 }
 
