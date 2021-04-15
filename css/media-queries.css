@@ -15,7 +15,6 @@ body{
     flex-direction: column;
     padding: .7em;
     /*width: 100%;*/
-    background-color: hotpink;
     justify-content: center;
     margin-top: 0;
     margin-bottom: 0;
@@ -52,14 +51,14 @@ li>a {
     font-size: large;
 }
 
-ul{
+ul {
     display: flex;
     flex-direction: column;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-li{
+li {
     display: flex;
     background-color: #c1c1c1;
     width: 100%;
@@ -87,27 +86,26 @@ footer p{
     font-size: small;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*// this css is for desktop*/
+/* this css is for desktop */
 @media screen and (min-width:500px) {
     * {
         color: hotpink;
+    }
+    .hidden-on-desktop {
+        display: none;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    li {
+        display: flex;
+        flex-direction: row;
+        background: none;
+        width: 8%;
+    }
+    h1 {
+
     }
 }
