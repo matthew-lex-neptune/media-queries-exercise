@@ -127,19 +127,26 @@ footer > p{
     }
     /* This is the last thing I'm trying to fix, for some reason it breaks at over 90% ish browser width.
     We may just have to stretch it. I was trying to keep a nice 900x400.*/
-    .header-img {
-        margin-left: auto;
-        margin-right: auto;
-        height: 400px;
-        width: 900px;
+    /*.header-img {*/
+    /*    margin-left: auto;*/
+    /*    margin-right: auto;*/
+    /*    height: 400px;*/
+    /*    width: 900px;*/
+    /*}*/
+
+    img{
+        padding-bottom: 1em;
     }
+
     .sub-section {
         padding-left: 2em;
         width: 30%;
     }
+
     footer {
         margin-top: 30%;
     }
+
     footer > p{
         margin-left: 15px;
     }
